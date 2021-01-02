@@ -5,9 +5,9 @@ import { Onboarding } from "./src/Authentication";
 import LoadAssets from "./src/components/LoadAssets";
 
 const fonts = {
-  "SFProText-Bold": require("./assets/fonts/SF-Pro-Text-Bold.otf"),
-  "SFProText-Semibold": require("./assets/fonts/SF-Pro-Text-Semibold.otf"),
-  "SFProText-Regular": require("./assets/fonts/SF-Pro-Text-Regular.otf"),
+  "SFProText-Bold": require("./assets/fonts/SF-Pro-Text-Bold.ttf"),
+  "SFProText-Semibold": require("./assets/fonts/SF-Pro-Text-Medium.ttf"),
+  "SFProText-Regular": require("./assets/fonts/SF-Pro-Text-Regular.ttf"),
 };
 
 const AuthenticationStack = createStackNavigator();
